@@ -36,6 +36,7 @@ export default function RootLayout({
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-gray-900 transition-colors"
+                title="个人主页"
               >
                 <DogIcon className="w-6 h-6" />
               </a>
@@ -44,6 +45,7 @@ export default function RootLayout({
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-gray-900 transition-colors"
+                title="Github"
               >
                 <GithubIcon className="w-7 h-7" />
               </a>
@@ -52,6 +54,7 @@ export default function RootLayout({
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-gray-900 transition-colors"
+                title="Bilibili"
               >
                 <BilibiliIcon className="w-6 h-6" />
               </a>

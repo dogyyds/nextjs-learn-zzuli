@@ -1,8 +1,8 @@
 "use client";
 
 import { useState, useCallback } from "react";
-import SearchBar from "@/components/SearchBar";
-import { Student } from "@/types/student";
+import SearchBar from "../components/SearchBar";
+import { Student } from "../types/student";
 
 export default function Home() {
   const [students, setStudents] = useState<Student[]>([]);

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { GithubIcon, BilibiliIcon, DogIcon } from "@/components/icons";
+import { GithubIcon, DogIcon } from "@/components/icons";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -48,15 +48,6 @@ export default function RootLayout({
                 title="Github"
               >
                 <GithubIcon className="w-7 h-7" />
-              </a>
-              <a
-                href="https://space.bilibili.com/524190453"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-600 hover:text-gray-900 transition-colors"
-                title="Bilibili"
-              >
-                <BilibiliIcon className="w-6 h-6" />
               </a>
             </div>
           </div>
